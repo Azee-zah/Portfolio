@@ -4,7 +4,7 @@ function Home() {
     return(
   /* the hero section */
     <div id="home" className="min-h-screen flex items-center">
-        <div className="max-w-4xl mx-auto w-full px-6 py-16">
+        <div className="max-w-5xl mx-auto w-full px-6 py-16">
             <div className="flex flex-col-reverse md:flex-row items-center justify-between">
                 <div className="md:w-1/2">
                     <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">

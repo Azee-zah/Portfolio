@@ -28,7 +28,7 @@ function Projects() {
 
     return(
         <section id="projects" className=" bg-white">
-            <div className="max-w-4xl mx-auto px-6">
+            <div className="max-w-5xl mx-auto px-6">
                 <h2 className="text-3xl font-bold">Featured Projects</h2>
                 <p className="mt-2 text-gray-600">Selected projects that shows both frontend and backend work</p>
 

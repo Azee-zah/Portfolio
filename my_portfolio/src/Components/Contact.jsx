@@ -2,7 +2,7 @@
 function Contact() {
     return(
         <section id="contact" className="py-20 bg-gray-50">
-            <div className="max-w-4xl mx-auto px-6 text-center">
+            <div className="max-w-5xl mx-auto px-6 text-center">
                 <h2 className="text-3xl font-bold">Contact Me</h2>
                 <p className="text-gray-600 mt-2">For collaborations or see more ? Send a mail or find me on Github and/or LinkedIn</p>
 

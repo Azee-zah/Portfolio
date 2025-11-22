@@ -2,7 +2,7 @@
 function Skills() {
     return(
         <section id="skills" className="py-20 bg-gray-50">
-            <div className="max-w-4xl mx-auto px-6">
+            <div className="max-w-5xl mx-auto px-6">
                 <h2 className="font-bold text-3xl">Skills</h2>
                 <p className="mt-2 text-gray-600">Technologies and tools I am proficient with</p>
 
