@@ -27,6 +27,16 @@ function Skills() {
                             <li className="inline-flex items-center gap-2"><span className="bg-green-500 px-4 text-white font-semibold">Git/GitHub</span></li>
                         </ul>
                     </div>
+
+                    <div className="p-6 bg-white rounded-xl shadow-sm">
+                        <h4 className="font-semibold text-xl">AI</h4>
+                        <ul className="mt-3 space-y-2 text-sm text-gray-600 space-x-5">
+                            <li className="inline-flex items-center gap-2"><span className="bg-green-500 px-4 text-white font-semibold">API-based AI systems</span></li>
+                            <li className="inline-flex items-center gap-2"><span className="bg-green-500 px-4 text-white font-semibold">LLM-based workflows</span></li>
+                            <li className="inline-flex items-center gap-2"><span className="bg-green-500 px-4 text-white font-semibold">Prompt Engineering</span></li>
+                            <li className="inline-flex items-center gap-2"><span className="bg-green-500 px-4 text-white font-semibold">Retrieval Augmented Generation (RAG) concepts</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>

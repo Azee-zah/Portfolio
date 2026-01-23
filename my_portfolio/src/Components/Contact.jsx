@@ -9,7 +9,7 @@ function Contact() {
                 <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
                     <a href="mailto:olamideakinleye800@gmail.com" className="inline-flex items-center gap-2 border border-green-200 text-green-700 text-lg px-5 py-2 rounded-lg hover:bg-green-200">Email me 📩</a>
                     <div className="flex gap-2">
-                        <a href="#" className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-green-200 text-green-700 hover:bg-green-200">Github</a>
+                        <a href="https://github.com/Azee-zah/" className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-green-200 text-green-700 hover:bg-green-200">Github</a>
                         <a href="#" className="inline-flex items-center gap-2 px-3 py-2 rounded-md border border-green-200 text-green-700 hover:bg-green-200">LinkedIn</a>
                     </div>
                 </div>

@@ -4,6 +4,7 @@ function Projects() {
         {
             id: 1,
             title: "A Basic Expense Tracker App",
+            image: "my_portfolio/public/pro/tax.PNG",
             description: "Add new expense, delete, View all and track number of expense and most expensive item spent on",
             tools: ['React'],
             code: 'https://github.com/Azee-zah/Web_dev_Project/tree/master/React_project/mini_rproject/trackexpense_app'
@@ -12,6 +13,7 @@ function Projects() {
         {
             id: 2,
             title: "A Database linked to the Expense Tracker App",
+            image: "my_portfolio/public/xpense_track.JPG",
             description: "Retaining expense list even after page refreshes, list is still intact",
             tools: ['React', 'FASTAPI', 'mySQL'],
             code: 'https://github.com/Azee-zah/combination'
@@ -19,10 +21,11 @@ function Projects() {
 
         {
             id: 3,
-            title: "A Cafe Website (grouped)",
-            description: "View Cafe products, place order amd add to cart",
-            tools: ['HTML', 'CSS', 'JavaScript'],
-            code: 'https://github.com/Azee-zah/combination'
+            title: "TaxGPT",
+            image: "my_portfolio/public/tax.PNG",
+            description: "An AI-powered bot that explains tax policy in simple clear manners",
+            tools: ['RAG', 'React', 'Prompt-Engineering'],
+            code: 'https://github.com/KudoroEsther/Tax_Project.git'
         },
     ]
 
@@ -35,7 +38,11 @@ function Projects() {
                 <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((p) => (
                         <div key={p.id} className="rounded-2xl shadow-md border border-green-400 p-4 hover:scale-105 transition-transform">
-                            <div className="h-40 rounded-lg bg-green-50 flex items-center justify-center text-green-600 font-medium">Preview</div>
+                            <img 
+                            src={p.image}
+                            alt={`${p.title} preview`}
+                            loading="lazy"
+                            className="h-40 rounded-lg bg-green-50 flex items-center justify-center text-green-600 font-medium"/>
                             <h3 className="mt-4 font-semibold text-lg">{p.title}</h3>
                             <p className="mt-2 text-sm text-gray-600">{p.description}</p>
                             <div className="mt-3 flex flex-wrap gap-2">

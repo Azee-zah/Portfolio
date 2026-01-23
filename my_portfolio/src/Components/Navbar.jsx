@@ -14,7 +14,7 @@ function Navbar() {
                         <a href="#skills" onClick={() => setActive('skills')} className={activeLink('skills')}>Skills</a>
                         <a href="#projects" onClick={() => setActive('projects')} className={activeLink('projects')}>Projects</a>
                         <a href="#contact" onClick={() => setActive('contact')} className={activeLink('contact')}>Contact</a>
-                        <a href="#" className="ml-3 inline-flex items-center gap-2 px-3 py-2 rounded-full border border-green-300 text-md text-green-700 hover:bg-green-200">Github</a>
+                        <a href="https://github.com/Azee-zah/" className="ml-3 inline-flex items-center gap-2 px-3 py-2 rounded-full border border-green-300 text-md text-green-700 hover:bg-green-200">Github</a>
                     </nav>
                 
                     <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700 text-2xl font-bold md:hidden">
